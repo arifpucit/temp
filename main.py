@@ -27,7 +27,7 @@ def main():
     fig, ax = plt.subplots(figsize=(10, 5))
     ax.plot(df.index, df["temperature_c"], label="Temperature (°C)")
     ax.plot(df.index, df["humidity_pct"], label="Humidity (%)")
-    ax.set_title("Synthetic Daily Weather Data")
+    ax.set_title("Hello Pull Request")
     ax.set_xlabel("Date")
     ax.set_ylabel("Value")
     ax.legend()
